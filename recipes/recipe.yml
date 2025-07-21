@@ -28,6 +28,8 @@ modules:
         - one.ablaze.floorp
         - com.github.tchx84.Flatseal
         - it.mijorus.gearlever
+        - dev.deedles.Trayscale
+        - org.onlyoffice.desktopeditors
       #remove:
         #- org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
