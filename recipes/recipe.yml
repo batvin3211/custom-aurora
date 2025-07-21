@@ -21,7 +21,7 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
-    repos:
+    #repos:
       #- https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       - micro
@@ -40,7 +40,7 @@ modules:
         - one.ablaze.floorp
         - com.github.tchx84.Flatseal
         - it.mijorus.gearlever
-      remove:
+      #remove:
         #- org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
 
