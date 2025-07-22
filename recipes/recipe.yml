@@ -30,7 +30,7 @@ modules:
         - dev.deedles.Trayscale
         - org.onlyoffice.desktopeditors
         - io.github.celluloid_player.Celluloid
-        - run org.gnome.Lollypop
+        - org.gnome.Lollypop
         - org.kde.gwenview
         - org.gpodder.gpodder
         - com.makemkv.MakeMKV
