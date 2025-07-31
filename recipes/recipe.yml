@@ -25,7 +25,7 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - one.ablaze.floorp
+        - com.brave.Browser
         - it.mijorus.gearlever
         - dev.deedles.Trayscale
         - org.onlyoffice.desktopeditors
