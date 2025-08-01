@@ -26,6 +26,10 @@ modules:
       repo:
         # you can override the title to make inclusion of both system and user repos clearer
         title: Flathub (user)
+        install:
+          - org.gpodder.gpodder
+          - com.makemkv.MakeMKV
+          - fr.handbrake.ghb
     - notify: true
       scope: system
       repo:
@@ -38,9 +42,6 @@ modules:
         - io.github.celluloid_player.Celluloid
         - org.gnome.Lollypop
         - org.kde.gwenview
-        - org.gpodder.gpodder
-        - com.makemkv.MakeMKV
-        - fr.handbrake.ghb
       #remove:
         #- org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
