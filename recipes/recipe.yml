@@ -33,6 +33,7 @@ modules:
         - org.gnome.Lollypop
         - org.kde.gwenview
       - scope: user # Also add Flathub user repo, but no user packages
+        install:
         - org.gpodder.gpodder
         - com.makemkv.MakeMKV
         - fr.handbrake.ghb
