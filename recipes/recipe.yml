@@ -32,10 +32,9 @@ modules:
         - io.github.celluloid_player.Celluloid
         - org.gnome.Lollypop
         - org.kde.gwenview
-      - scope: user # Also add Flathub user repo, but no user packages
-        install:
         - org.gpodder.gpodder
         - com.makemkv.MakeMKV
         - fr.handbrake.ghb
+      - scope: user # Also add Flathub user repo, but no user packages
       
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
