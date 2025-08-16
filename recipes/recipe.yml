@@ -35,9 +35,8 @@ modules:
         - io.github.celluloid_player.Celluloid
         - org.gnome.Lollypop
         - org.kde.gwenview
-        - org.gpodder.gpodder
-        - com.makemkv.MakeMKV
-        - fr.handbrake.ghb
+        - io.github.flattool.Warehouse
+        - io.github.dvlv.boxbuddyrs
         - org.gnome.Boxes
       - scope: user # Also add Flathub user repo, but no user packages
   - type: systemd
