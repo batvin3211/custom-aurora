@@ -24,8 +24,8 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: akmods
     base: bazzite
-    #install:
-    #  - evdi
+    install:
+      - common
   - type: bling
     install:
       - rpmfusion
