@@ -23,6 +23,10 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+  - type: akmods
+    base: main
+    install:
+      - wl
   - type: rpm-ostree
     install:
     - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
