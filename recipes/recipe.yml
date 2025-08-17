@@ -5,7 +5,6 @@ name: custom-aurora
 # description will be included in the image's metadata
 description: This is my personal OS image.
 alt-tags:
-  - gts
   - stable
   - latest
 
