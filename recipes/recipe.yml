@@ -27,6 +27,9 @@ modules:
     install:
       - wl
       - evdi
+  - type: bling
+    install:
+      - rpmfusion
   - type: rpm-ostree
     install:
     - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
