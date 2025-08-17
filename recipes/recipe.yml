@@ -10,7 +10,7 @@ alt-tags:
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/aurora
-image-version: stable # latest is also supported if you want new updates ASAP
+image-version: stable-daily # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -22,10 +22,6 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-  - type: akmods
-    base: bazzite
-    install:
-      - wl
   - type: rpm-ostree
     install:
     - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
