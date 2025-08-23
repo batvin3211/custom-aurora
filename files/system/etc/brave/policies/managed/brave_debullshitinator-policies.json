@@ -10,5 +10,9 @@
     "HighEfficiencyModeEnabled": true,
     "MemorySaverModeSavings": 1,
     "PasswordManagerEnabled": false,
-    "DnsOverHttpsMode": "automatic"
+    "DnsOverHttpsMode": "automatic",
+    "ExtensionInstallForcelist": [
+       "nngceckbapebfimnlniiiahkandclblb",
+       "kfghpdldaipanmkhfpdcjglncmilendn"
+    ]
 }
