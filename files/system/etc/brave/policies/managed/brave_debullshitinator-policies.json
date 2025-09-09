@@ -16,12 +16,12 @@
     ]
     "ExtensionInstallForcelist": [
        "nngceckbapebfimnlniiiahkandclblb",
-       "kfghpdldaipanmkhfpdcjglncmilendn"
+       "kfghpdldaipanmkhfpdcjglncmilendn",
+       "oladmjdebphlnjjcnomfhhbfdldiimaf;https://github.com/libredirect/browser_extension/releases/download/v3.2.0/libredirect-3.2.0.crx"
     ],
     "ClearBrowsingDataOnExitList": [
        "browsing_history",
        "download_history",
-       "cookies_and_other_site_data",
        "cached_images_and_files",
        "password_signin",
        "autofill",
