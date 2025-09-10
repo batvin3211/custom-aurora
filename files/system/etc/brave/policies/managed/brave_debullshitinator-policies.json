@@ -13,7 +13,7 @@
     "DnsOverHttpsMode": "automatic",
     "ExtensionAllowedTypes": [
        "hosted_app"
-    ]
+    ],
     "ExtensionInstallForcelist": [
        "nngceckbapebfimnlniiiahkandclblb",
        "kfghpdldaipanmkhfpdcjglncmilendn",
