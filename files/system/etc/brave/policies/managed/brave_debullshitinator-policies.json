@@ -11,13 +11,9 @@
     "MemorySaverModeSavings": 1,
     "PasswordManagerEnabled": false,
     "DnsOverHttpsMode": "automatic",
-    "ExtensionAllowedTypes": [
-       "hosted_app"
-    ],
     "ExtensionInstallForcelist": [
        "nngceckbapebfimnlniiiahkandclblb",
-       "kfghpdldaipanmkhfpdcjglncmilendn",
-       "oladmjdebphlnjjcnomfhhbfdldiimaf;https://github.com/libredirect/browser_extension/releases/download/v3.2.0/libredirect-3.2.0.crx"
+       "kfghpdldaipanmkhfpdcjglncmilendn"
     ],
     "ClearBrowsingDataOnExitList": [
        "browsing_history",
