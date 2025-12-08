@@ -23,7 +23,7 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: dnf
-    repo:
+    repos:
       nonfree: rpmfusion
     install:
       skip-unavailable: true # skip unavailable packages
