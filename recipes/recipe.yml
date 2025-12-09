@@ -36,11 +36,11 @@ modules:
         install: # system flatpaks we want all users to have and not remove
           - com.brave.Browser
           - it.mijorus.gearlever
-          - dev.deedles.Trayscale
+          - org.fkoehler.KTailctl
           - org.onlyoffice.desktopeditors
           - io.github.celluloid_player.Celluloid
           - io.github.flattool.Warehouse
-          - io.github.DenysMb.Kontainer
+          - com.ranfdev.DistroShelf
           - org.gnome.Boxes
   - type: systemd
     system:
