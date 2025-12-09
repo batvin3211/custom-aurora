@@ -27,8 +27,10 @@ modules:
       - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
-        scope: system
+      - scope: system
+        repo:
+          # you can override the title to make inclusion of both system and user repos clearer
+          title: Flathub (system)
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
         - com.brave.Browser
@@ -36,11 +38,9 @@ modules:
         - dev.deedles.Trayscale
         - org.onlyoffice.desktopeditors
         - io.github.celluloid_player.Celluloid
-        - org.kde.gwenview
         - io.github.flattool.Warehouse
         - io.github.DenysMb.Kontainer
         - org.gnome.Boxes
-      - scope: user # Also add Flathub user repo, but no user package
   - type: systemd
     system:
       enabled:
