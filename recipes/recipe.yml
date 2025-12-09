@@ -30,6 +30,10 @@ modules:
       packages: 
         - libevdi
         - displaylink
+  - type: akmods
+    base: main
+    install:
+      - evdi
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
