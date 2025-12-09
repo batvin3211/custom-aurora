@@ -4,3 +4,6 @@ install-nixpkgs:
 clean-nixpkgs:
     #!/usr/bin/env bash
     nix-collect-garbage -d
+
+install-displaylink:
+    sudo rpm-ostree install libevdi displaylink -y
