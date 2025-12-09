@@ -23,24 +23,29 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: rpm-ostree
+    repos:
+      - https://negativo17.org/repos/fedora-multimedia.repo
     install:
       - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
+      - libevdi
+      - displaylink
   - type: default-flatpaks
     configurations:
-      - scope: system
+      - notify: true
+        scope: system
         repo:
           # you can override the title to make inclusion of both system and user repos clearer
           title: Flathub (system)
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-        - com.brave.Browser
-        - it.mijorus.gearlever
-        - dev.deedles.Trayscale
-        - org.onlyoffice.desktopeditors
-        - io.github.celluloid_player.Celluloid
-        - io.github.flattool.Warehouse
-        - io.github.DenysMb.Kontainer
-        - org.gnome.Boxes
+          - com.brave.Browser
+          - it.mijorus.gearlever
+          - dev.deedles.Trayscale
+          - org.onlyoffice.desktopeditors
+          - io.github.celluloid_player.Celluloid
+          - io.github.flattool.Warehouse
+          - io.github.DenysMb.Kontainer
+          - org.gnome.Boxes
   - type: systemd
     system:
       enabled:
