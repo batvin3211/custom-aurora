@@ -6,4 +6,4 @@ clean-nixpkgs:
     nix-collect-garbage -d
 
 install-displaylink:
-    sudo rpm-ostree install libevdi displaylink -y
+    sudo rpm-ostree install libevdi displaylink kmod-evdi -y
