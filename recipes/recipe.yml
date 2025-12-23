@@ -25,6 +25,7 @@ modules:
   - type: rpm-ostree
     install:
       - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
+      - https://github.com/minbrowser/min/releases/download/v1.35.2/min-1.35.2-x86_64.rpm
   - type: default-flatpaks
     configurations:
       - notify: true
