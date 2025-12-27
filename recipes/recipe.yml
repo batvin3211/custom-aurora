@@ -23,9 +23,14 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: rpm-ostree
+    repos:
+      - https://negativo17.org/repos/fedora-multimedia.repo
     install:
       - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
-      - https://github.com/minbrowser/min/releases/download/v1.35.2/min-1.35.2-x86_64.rpm
+  - type: akmods
+    base: main
+    install:
+      - evdi
   - type: default-flatpaks
     configurations:
       - notify: true
