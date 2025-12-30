@@ -40,7 +40,6 @@ modules:
           - io.github.celluloid_player.Celluloid
           - io.github.flattool.Warehouse
           - com.ranfdev.DistroShelf
-          - org.gnome.Boxes
   - type: systemd
     system:
       enabled:
