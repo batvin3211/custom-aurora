@@ -21,9 +21,9 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-  - type: rpm-ostree
-    install:
-      - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.25-1.x86_64.rpm
+  #- type: rpm-ostree
+  #  install:
+  #    - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.25-1.x86_64.rpm
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -40,8 +40,8 @@ modules:
           - io.github.celluloid_player.Celluloid
           - io.github.flattool.Warehouse
           - com.ranfdev.DistroShelf
-  - type: systemd
-    system:
-      enabled:
-        - portmaster.service
+  #- type: systemd
+  #  system:
+  #    enabled:
+  #      - portmaster.service
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
