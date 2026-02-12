@@ -17,6 +17,7 @@ modules:
   - type: script
     scripts:
       - nix.sh
+      - dialout-group.sh
   - type: files
     files:
       - source: system
